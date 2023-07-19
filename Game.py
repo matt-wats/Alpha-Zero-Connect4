@@ -31,7 +31,7 @@ class Connect4():
 
         # Update column's row position and flip board
         self.column_moves[col] -= 1
-        self.board = np.flip(self.board, axis=1)
+        self.board = np.flip(self.board, axis=0)
         self.flipped = not self.flipped
 
         # Check game conditions
