@@ -6,8 +6,8 @@ import Search
 import Model
 import torch
 
-model = torch.load("./TrainedModel/model.pt")
-model.load_state_dict(torch.load("./TrainedModel/model_state.pt"))
+model = torch.load("./Trained_Model/model.pt")
+model.load_state_dict(torch.load("./Trained_Model/model_state.pt"))
 evaluator = Model.Evaluator(model)
 
 
@@ -92,7 +92,7 @@ def game_loop(b: Game.Connect4):
 # Run the game
 b = Game.Connect4()
 game_loop(b)
-if b.is_terminal():
+if b.is_terminal:
     if b.value == 1:
         winner = 1 + (not b.flipped)
         print(f"Congrats to player {winner} for winning")
