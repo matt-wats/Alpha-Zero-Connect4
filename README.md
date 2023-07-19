@@ -5,9 +5,7 @@ Using the Alpha Zero algorithm to learn to play Connect 4
 
 Video of me playing, and losing :(, against the bot:
 
-https://github.com/matt-wats/Alpha-Zero-Connect4/assets/112960646/09432674-ddf6-4b01-a014-a551206d69fa
-
-
+https://github.com/matt-wats/Alpha-Zero-Connect4/assets/112960646/f7b5588d-b1cf-4eb2-bbcd-d2e76bf7bbc9
 
 # Motivation
 
